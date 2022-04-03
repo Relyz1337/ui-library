@@ -13,7 +13,7 @@ ContentProvider:PreloadAsync({"rbxassetid://3570695787", "rbxassetid://270889159
 local Library = {
 	Theme = {
 		MainColor = Color3.fromRGB(0, 0, 0),
-		BackgroundColor = Color3.fromRGB(35, 35, 35),
+		BackgroundColor = Color3.fromRGB(170, 49, 160),
 		UIToggleKey = Enum.KeyCode.RightControl,
 		TextFont = Enum.Font.SourceSansBold,
 		EasingStyle = Enum.EasingStyle.Quart
@@ -37,7 +37,7 @@ end
 local function SetUIAccent(color)
 	for i, v in pairs(Library.LibraryColorTable) do
 		if HasProperty(v, "ImageColor3") then
-			if v ~= "CheckboxOutline" and v.ImageColor3 ~= Color3.fromRGB(65, 65, 65) then
+			if v ~= "CheckboxOutline" and v.ImageColor3 ~= Color3.fromRGB(42, 42, 42) then
 				v.ImageColor3 = color
 			end
 		end
