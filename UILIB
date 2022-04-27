@@ -218,14 +218,6 @@ Utils.Draggable = function(UI, DragUi)
 		DragUi = UI
 	end
 
-	local function UpdateInput(Input)
-		local Delta = Input.Position - DragStart
-		local Position = UDim2.new(StartPos.X.Scale, StartPos.X.Offset + Delta.X, StartPos.Y.Scale, StartPos.Y.Offset + Delta.Y);
-
-		Utils.Tween(UI, "Linear", "Out", .25, {
-			Position = Position
-		});
-	end
     local CoreGui = Services.CoreGui
     local UserInputService = Services.UserInputService
 
