@@ -124,7 +124,7 @@ local Colors = {
 	PageTextIdle = Color3fromRGB(150, 150, 150);
 	PageBackgroundIdle = Color3fromRGB(18, 18, 18);
 	PageBorderIdle = Color3fromRGB(18, 18, 18);
-	ElementBackground = Color3fromRGB(25, 25, 25);
+	ElementBackground = Color3fromRGB(185, 103, 191);
 }
 
 local Debounce = function(Func)
